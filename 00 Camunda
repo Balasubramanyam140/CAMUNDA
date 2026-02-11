@@ -1,7 +1,24 @@
 1) Camunda
-
+2) Camunda Modeller
+3) BPMN
 
 1) Camunda
     Camunda is a tool where you create workflows (using BPMN) and decision rules (using DMN), and it executes them by calling your code, APIs, and services.
                                                             or
     Camunda is an open‑source workflow and decision automation platform that helps you model, run, and automate business processes using BPMN, DMN, and CMMN standards.
+
+
+2) Camunda Modeller
+     A Tool that helps us in easily creating BPMs and DMNs.
+
+3) BPMN
+      BPMN is a business processing modelling notation
+      - It is an open standard to diagram business process.
+      Ex:-
+                                 TASK 1                    Task2
+                             ___________________        ________________
+            start    O----> |    Insert user    |----->| Get all Users   | ---> O  END
+                            |        to DB      |      |     DB          |    
+                            ____________________       _________________
+         * The framework that actually supports the BPM is called Camunda.
+         * So, Camunda is a framework that is actually responsible for execution of the BPM files.
