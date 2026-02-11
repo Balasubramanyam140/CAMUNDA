@@ -2,6 +2,7 @@
 2) Camunda Modeller
 3) BPMN
 4) Process Enginer
+5) Ways to integrate a process engine in our application
 
 1) Camunda
     Camunda is a tool where you create workflows (using BPMN) and decision rules (using DMN), and it executes them by calling your code, APIs, and services.
@@ -29,3 +30,12 @@
         * A Process engine is the core component inside a BPM platform(like Camunda) that executes, manages and controls business processes defined using BPMN diagram.
         * A Java library that understands BPMNs and DMNs and is reponsible for executing them.
 
+5) Ways to integrate a process engine in our application
+        A Process ENgine can integrated into our application in 3 main ways :-
+            1) Embedded Process Engine
+                    * Process Engine is added as a library to a custom app.
+            2) Shared, container - Managed Process Engine
+                    * Process Engine is provided as a container service and can be shared by all applications deployed inside the container.
+            3) Standalone (Remote) Process Enginer Server
+                    * Process Engine is hosted on a standalone server.
+                    * The application which could be hosted somewhere else can connect to remote process Engine.
