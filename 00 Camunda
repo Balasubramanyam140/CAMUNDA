@@ -3,7 +3,10 @@
 3) BPMN
 4) Process Enginer
 5) Ways to integrate a process engine in our application
+6) Camunda Generic-properties
 
+
+---------------------------------------------------------------------------------------------------------------
 1) Camunda
     Camunda is a tool where you create workflows (using BPMN) and decision rules (using DMN), and it executes them by calling your code, APIs, and services.
                                                             or
@@ -39,3 +42,16 @@
             3) Standalone (Remote) Process Enginer Server
                     * Process Engine is hosted on a standalone server.
                     * The application which could be hosted somewhere else can connect to remote process Engine.
+
+6) Camunda Generic-properties
+         Camunda Generic Properties are the basic configuration settings available for every BPMN element in Camunda Modeler.
+       *  They are called “generic” because they apply to all types of BPMN elements, such as:
+                Start Event
+                End Event
+                Service Task
+                User Task
+                Gateway
+                Timer
+                Message Event
+                Subprocess
+        These properties help you configure the identity and behavior of the element inside your workflow.
